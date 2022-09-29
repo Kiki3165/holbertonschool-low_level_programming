@@ -1,4 +1,4 @@
-#!/bin/c
+#!/bin/Betty
 #include <stdio.h>
 #include <string.h>
 
