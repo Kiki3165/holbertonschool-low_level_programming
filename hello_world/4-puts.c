@@ -1,6 +1,7 @@
-gcc 
 #include <stdio.h>
 #include <string.h>
+
+gcc
 
 int main(void)
 {
