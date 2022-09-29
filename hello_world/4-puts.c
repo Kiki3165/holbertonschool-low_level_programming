@@ -1,4 +1,4 @@
-gcc $CFILE
+gcc 
 #include <stdio.h>
 #include <string.h>
 
