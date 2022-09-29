@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <string.h>
 
-gcc
+gcc -S $CFILE
 
 int main(void)
 {
