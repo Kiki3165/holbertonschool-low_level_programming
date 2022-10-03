@@ -1,5 +1,6 @@
-#include <stdlib.h>
+#include <stdio.h>
 #include <time.h>
+#include <stdlib.h>
 /**
  * main - check if a number
  *
@@ -17,11 +18,11 @@ if (n > 0)
 printf("n is positive than 0\n");
 
 }
-else if
+else if (n < 0)
 {
 
 printf("n is negative than 0\n");
-
+else
 printf("n is 0\n");
 
 srand(time(0));
