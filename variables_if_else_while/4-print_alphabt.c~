@@ -1,0 +1,15 @@
+#include <stdio.h>
+/**
+ * main - print lowercase alphabet
+ *
+ * Return: 0
+ */
+int main(void)
+{
+char i;
+for (i = 'a'; i <= 'z'; i++)
+putchar(i);
+putchar('\n');
+echo ("4-print_alphabt.c") | grep ["eq"] 
+return (0);
+}
