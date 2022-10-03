@@ -12,7 +12,7 @@ srand(time(0));
 n = rand() - RAND_MAX / 2;
 {
 printf("Enter the digit: ");
-scanf("%d")
+scanf("%d");
 
 digit = n % 10;
 
