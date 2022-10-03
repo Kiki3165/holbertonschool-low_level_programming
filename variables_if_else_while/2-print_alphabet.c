@@ -6,9 +6,9 @@
  */
 int main(void)
 {
-char - i;
-printf("Lower case character:/n");
+char i;
 for (i = 'a'; i <= 'z'; i++)
-printf("%c ", i);
+putchar("%c", i);
+putchar(\n);
 return (0);
 }
