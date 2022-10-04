@@ -9,8 +9,12 @@ int main(void)
 int num;
 char i;
 for (num = 0; num % 10; num++)
-for (i = '0'; i <= '9'; i++)
-putchar(i);
+{
+putchar((num % 10) + '0');
+if (num == 9)
+continue;
+putchar(',');
+putchar(' ');
+}
 putchar('\n');
-return (0);
 }
