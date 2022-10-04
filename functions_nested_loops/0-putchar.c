@@ -1,16 +1,20 @@
 #include <stdio.h>
 #include <unistd.h>
 /**
- * main - nested loops
+ * _putchar - writes the character c to stdout
+ * @c: The character to print
  *
- * Return: 0
+ * Return: On success 1.
+ * On error, -1 is returned, and errno is set appropriately.
  */
 int main(void)
 {
-char c;
-while ((c = getchar()) != EOF)
-putchar(c);
+char *sh = "main.h";
+while (*sh)
+{
+putchar(*sh);
+sh++;
+}
 putchar('\n');
-return (write(1, &c, 1));
 return (0);
 }
