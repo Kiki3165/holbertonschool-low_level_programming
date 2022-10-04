@@ -12,4 +12,5 @@ while ((c = getchar()) != EOF)
 putchar(c);
 putchar('\n');
 return (write(1, &c, 1));
+return (0);
 }
