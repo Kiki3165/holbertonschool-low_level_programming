@@ -1,6 +1,9 @@
 /**
  * _isalpha - check the code.
  *
+ *
+ *@c: Number to pass to _islower function
+ *
  * Return: Always 0.
  */
 int _isalpha(void)
