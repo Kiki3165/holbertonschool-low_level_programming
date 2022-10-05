@@ -2,6 +2,7 @@
 /**
  * _islower - check the code
  *
+ *@c: Number to pass to _islower function
  * Return: Always 0.
  */
 int _islower(int c)
@@ -19,4 +20,4 @@ else
 return (0);
 }
 }
-
+ 
