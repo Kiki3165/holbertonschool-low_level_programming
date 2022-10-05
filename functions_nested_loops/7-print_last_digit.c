@@ -2,7 +2,7 @@
 /**
  * print_last_digit - check the code
  *
- *@n: The number to be treated
+ *@r: The number to be treated
  *
  * Return: Always 0.
  */
