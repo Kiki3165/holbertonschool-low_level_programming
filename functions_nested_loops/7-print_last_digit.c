@@ -6,7 +6,7 @@
  *
  * Return: Always 0.
  */
-int print_last_digit()
+int print_last_digit(int)
 {
 int n;
 for (n = 0; n <= n % 10; n++)
