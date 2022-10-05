@@ -2,6 +2,8 @@
 /**
  * print_sign - check the code.
  *
+ *@n: The number to be checked
+ *
  * Return: Always 0.
  */
 int print_sign(int n)
