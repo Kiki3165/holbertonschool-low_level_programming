@@ -6,11 +6,9 @@
  *
  * Return: Always 0.
  */
-int print_last_digit(int)
+int print_last_digit(int n)
 {
-int n;
-for (n = 0; n <= n % 10; n++)
+int r = n % 10
 _putchar(n % 10);
-_putchar('\n');
 return (0);
 }
