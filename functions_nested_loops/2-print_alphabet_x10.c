@@ -1,5 +1,5 @@
-#include "main.c"
 #include "main.h"
+#include "2-main.c"
 /**
  * void - check the code.
  *
