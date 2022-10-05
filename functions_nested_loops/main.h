@@ -2,7 +2,6 @@
 #define MAIN_H
 
 #include <unistd.h>
-#include "2-main.c"
 
 int _putchar(char c);
 
