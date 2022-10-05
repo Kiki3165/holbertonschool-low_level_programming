@@ -1,5 +1,5 @@
 /**
- * main - check the code
+ * print_last_digit - check the code
  *
  *@n: The number to be treated
  *
@@ -8,7 +8,7 @@
 int print_last_digit(int n)
 {
 int last;
-for (n = 0; n <= % 10; n++
+for (n = 0; n <= % 10; n++)
 _putchar(n % 10);
 _putchar('\n');
 return (0);
