@@ -12,5 +12,5 @@ int r = n % 10;
 if (r < 0)
 r = r * -1;
 _putchar(r + '0');
-return (0);
+return (r);
 }
