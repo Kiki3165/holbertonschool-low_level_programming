@@ -5,6 +5,8 @@
 
 int _isalpha(int c);
 
+int _abs(int);
+
 int print_sign(int n);
 
 int _putchar(char c);
