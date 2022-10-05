@@ -5,7 +5,7 @@
  */
 int _isalpha(void)
 {
-  if ((c >= 'a' && c <= 'z') || (c >= 'A' && c <= 'Z'))
+for ((c >= 'a' && c <= 'z') || (c >= 'A' && c <= 'Z')
     {
       return (1);
     }
