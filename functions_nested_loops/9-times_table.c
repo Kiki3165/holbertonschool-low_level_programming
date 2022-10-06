@@ -15,8 +15,6 @@ result = i * x;
 _putchar(',');
 _putchar(' ');
 _putchar(' ');
-_putchar(i);
-_putchar(x);
 _putchar(result);
 }
 _putchar('\n');
