@@ -1,10 +1,10 @@
 #include "main.h"
 /**
- * times_tables - check the code
+ * times_table - check the code
  *
  * Return: Always 0.
  */
-void times_tables(void)
+void times_table(void)
 {
 int x, y, z, u, d;
 for (x = 0; x <= 9; x++)
