@@ -3,3 +3,4 @@ all:
 	_CC= the compiler to be used
 
 	_SRC= the .c files
+.PHONY: all
