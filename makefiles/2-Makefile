@@ -7,4 +7,5 @@ all:
 	$(CC) $(SRC) $(OBJ) $(NAME)
 
 
-.PHONY: $(OBJ)
+all:
+	$(CC) $(SRC) %.o $(NAME)
