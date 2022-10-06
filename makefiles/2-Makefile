@@ -5,3 +5,6 @@ NAME = school
 
 all:
 	$(CC) $(SRC) $(OBJ) $(NAME)
+
+
+.PHONY: $(OBJ)
