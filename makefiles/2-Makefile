@@ -3,5 +3,5 @@ SRC = main.c school.c
 OBJ = * %.o
 NAME = school
 
-all: school.o main.o
+all:
 	$(CC) $(SRC) -o $(NAME)
