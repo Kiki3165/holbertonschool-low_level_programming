@@ -4,7 +4,7 @@
  *
  * Return: Always 0.
  */
-void times_table(void)
+void times_tables(void)
 {
 int x, y, z, u, d;
 for (x = 0; x <= 9; x++)
