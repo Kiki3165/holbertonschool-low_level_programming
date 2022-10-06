@@ -17,6 +17,6 @@ _putchar(' ');
 _putchar(' ');
 _putchar(result);
 }
-_putchar('\n');
 }
+_putchar('\n');
 }
