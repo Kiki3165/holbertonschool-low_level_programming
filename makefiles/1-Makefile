@@ -1,6 +1,5 @@
 all:
-	gcc main.c school.c -o school
 
-	_CC= all
+	_CC= the compiler to be used
 
-	_SRC= all
+	_SRC= the .c files
