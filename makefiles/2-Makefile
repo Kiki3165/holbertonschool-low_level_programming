@@ -4,4 +4,4 @@ OBJ = * %.o
 NAME = school
 
 all:
-	$(CC) $(SRC) $(OBJ) $(NAME)
+	$(CC) $(SRC) -o $(NAME)
