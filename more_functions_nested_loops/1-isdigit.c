@@ -10,8 +10,8 @@
 int _isdigit(int c)
 {
 int c = n % 10
-if (c < 0)
-c = c * -1;
-_putchar(c + '0');
+for (c = 0; c <= 9; c++)
+{
+_putchar(c / 10  '0')
 return (c);
 }
