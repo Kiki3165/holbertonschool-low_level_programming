@@ -5,6 +5,8 @@
 
 int _isalpha(int c);
 
+int _isdigit(int c);
+
 int _isupper(int c);
 
 void times_table(void);
