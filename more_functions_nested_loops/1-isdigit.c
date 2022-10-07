@@ -9,9 +9,11 @@
  */
 int _isdigit(int c)
 {
-int c = n % 10
+int c = % 10
 for (c = 0; c <= 9; c++)
 {
-_putchar(c / 10  '0')
+_putchar(c / 10  '0');
+_putchar('\n');
 return (c);
+}
 }
