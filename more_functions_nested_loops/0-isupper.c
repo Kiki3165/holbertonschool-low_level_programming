@@ -1,7 +1,7 @@
 /**
  * _isupper - nested loops
  *
- *
+ *@c: Number to pass to _isupper
  *
  * Return: 0
  */
