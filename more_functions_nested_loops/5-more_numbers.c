@@ -2,8 +2,6 @@
 /**
  * more_numbers - check the code
  *
- *@count:number print
- *@num:number count
  * Return: Always 0.
  */
 void more_numbers(void)
