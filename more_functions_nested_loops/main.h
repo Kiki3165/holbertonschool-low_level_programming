@@ -5,6 +5,8 @@
 
 int _isalpha(int c);
 
+void print_numbers(void);
+
 int _isdigit(int c);
 
 int _isupper(int c);
