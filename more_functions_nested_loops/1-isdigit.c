@@ -10,14 +10,9 @@
  */
 int _isdigit(int c)
 {
-int i;
-for (i = 0; i <= 9; i++)
-{
-if (i = n % 10)
+if (c >= 48 && c <=57)
 {
 return (0);
-else
+}
 return (1);
-}
-}
 }
