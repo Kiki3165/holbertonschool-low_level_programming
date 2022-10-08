@@ -1,3 +1,4 @@
+#include <stdio.h>
 #include <ctype.h>
 #include "main.h"
 /**
@@ -9,12 +10,14 @@
  */
 int _isdigit(int c)
 {
-int c;
-for (c = 0; c <= 9; c++)
+int i;
+for (i = 0; i <= 9; i++)
 {
-if (c = n % 10)
+if (i = n % 10)
+{
 return (0);
 else
 return (1);
+}
 }
 }
