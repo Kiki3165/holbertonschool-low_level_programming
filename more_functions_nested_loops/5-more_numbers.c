@@ -1,4 +1,3 @@
-#include <stdio.h>
 #include "main.h"
 /**
  * more_numbers - check the code
