@@ -9,13 +9,12 @@
  */
 int _isdigit(int c)
 {
-int c = '0';
+int c;
 for (c = 0; c <= 9; c++)
 {
-if (c > 9)
+if (c = n % 10)
 return (0);
 else
-return 1();
-return (c);
+return (1);
 }
 }
