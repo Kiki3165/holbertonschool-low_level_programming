@@ -5,6 +5,8 @@
 
 int _isalpha(int c);
 
+void more_numbers(void);
+
 int mul(int a, int b);
 
 void print_numbers(void);
