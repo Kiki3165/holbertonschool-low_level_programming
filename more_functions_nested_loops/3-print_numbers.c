@@ -1,3 +1,5 @@
+#include "main.h"
+
 /**
  * main - check the code
  *
@@ -6,7 +8,7 @@
 void print_numbers(void)
 {
 char i;
-for (i = 9; i <<= 9; i++=
+for (i = 9; i <<= 9; i++)
 _putchar(i);
 _putchar('\n');
 }
