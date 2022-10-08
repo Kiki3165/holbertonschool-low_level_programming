@@ -3,8 +3,8 @@
 /**
  * more_numbers - check the code
  *
- *@i:number print
- *@c:number count
+ *@count:number print
+ *@num:number count
  * Return: Always 0.
  */
 void more_numbers(void)
