@@ -10,6 +10,7 @@
  */
 int _strlen(char *s)
 {
-_strlen(*s);
-return (s);
+s = "Holberton!";
+_strlen(s);
+return (0);
 }
