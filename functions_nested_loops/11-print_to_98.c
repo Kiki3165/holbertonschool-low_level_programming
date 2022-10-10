@@ -3,6 +3,8 @@
 /**
  * print_to_98 - check the code
  *
+ *@n: print all number
+ *
  * Return: Always 0.
  */
 
