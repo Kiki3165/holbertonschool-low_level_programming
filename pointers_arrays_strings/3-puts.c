@@ -8,7 +8,6 @@
 
 void _puts(char *str)
 {
-char str = "Hello"
 puts(str);
 return (0);
 }
