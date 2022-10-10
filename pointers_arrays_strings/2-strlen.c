@@ -10,6 +10,6 @@
  */
 int _strlen(char *s)
 {
-strlen(s);
+_strlen(s);
 return (0);
 }
