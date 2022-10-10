@@ -7,6 +7,8 @@ int _isalpha(int c);
 
 void print_most_numbers(void);
 
+int add(int, int);
+
 void more_numbers(void);
 
 int mul(int a, int b);
