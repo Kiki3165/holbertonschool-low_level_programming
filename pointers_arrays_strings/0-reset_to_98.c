@@ -1,7 +1,9 @@
 #include "main.h"
-
+#include <stdio.h>
 /**
  * reset_to_98 - nested loops
+ *
+ *@n: uptade the value
  *
  * Return: 0
  */
@@ -11,5 +13,5 @@ int n;
 int *x;
 n = 98;
 x = &n;
-return (0);
+_putchar(x);
 }
