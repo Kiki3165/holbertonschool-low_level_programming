@@ -1,4 +1,4 @@
-#include "main.h"
+40;10;1c#include "main.h"
 #include <stdio.h>
 /**
  * print_rev - check the code
@@ -12,7 +12,7 @@ void print_rev(char *s)
 int i = 0;
 for (; s[i] != 0; i--)
 {
-_putchar(i);
+_putchar(s[i]);
 }
 _putchar('\n');
 }
