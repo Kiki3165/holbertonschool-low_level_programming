@@ -3,6 +3,8 @@
 /**
  * add - check the code
  *
+ *@a : add to b
+ *@b : add to a
  * Return: Always 0.
  */
 
