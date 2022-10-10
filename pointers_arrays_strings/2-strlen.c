@@ -4,6 +4,8 @@
 /**
  * _strlen - check the code
  *
+ *@s : return the length
+ *
  * Return: Always 0.
  */
 int _strlen(char *s)
