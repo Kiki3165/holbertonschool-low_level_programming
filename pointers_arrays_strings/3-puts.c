@@ -1,7 +1,9 @@
 #include <stdio.h>
 #include "main.h"
 /**
- * main - check the code
+ * _puts - check the code
+ *
+ *@str : print string
  *
  * Return: Always 0.
  */
