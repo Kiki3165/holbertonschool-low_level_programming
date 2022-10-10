@@ -1,6 +1,4 @@
 #include "main.h"
-#include <string.h>
-#include <stdio.h>
 /**
  * _strlen - check the code
  *
@@ -11,7 +9,7 @@
 int _strlen(char *s)
 {
 int i = 0;
-for (; *s != '\0'; s++=
+for (; *s != '\0'; s++)
 {
 i++;
 }
