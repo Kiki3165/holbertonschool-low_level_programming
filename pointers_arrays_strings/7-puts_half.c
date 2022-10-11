@@ -1,7 +1,9 @@
 #include "main.h"
 
 /**
- * main - check the code
+ * puts_half - check the code
+ *
+ *@str: same of 6
  *
  * Return: Always 0.
  */
