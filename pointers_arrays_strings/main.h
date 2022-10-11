@@ -5,6 +5,8 @@
 
 int _isalpha(int c);
 
+void rev_string(char *s);
+
 void print_rev(char *s);
 
 void _puts(char *str);
