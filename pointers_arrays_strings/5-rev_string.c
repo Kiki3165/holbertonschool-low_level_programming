@@ -20,5 +20,5 @@ for (j = 0; j != i; j++)
 _putchar(s[x]);
 x--;
 }
-_putchar'\n');
+_putchar('\n');
 }
