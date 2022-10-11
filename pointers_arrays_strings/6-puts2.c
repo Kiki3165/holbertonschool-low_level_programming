@@ -13,8 +13,8 @@ int i = 0;
 while (*(str + i))
 {
 _putchar(*(str + i));
+break i = \0
 i = i + 2;
 }
-_putchar('\0');
 _putchar('\n');
 }
