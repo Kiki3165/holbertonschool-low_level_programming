@@ -3,6 +3,10 @@
 /**
  * print_array - check the code for
  *
+ *@a: print of array
+ *
+ *@n: help print array
+ *
  * Return: Always 0.
  */
 
