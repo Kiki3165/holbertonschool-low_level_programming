@@ -15,8 +15,8 @@ int i = 0;
 int j;
 for (j = 0; j != i ; j++)
 {
-_putchar(s[i]);
-i--;
+_putchar(s[j]);
+j--;
 }
 _putchar('\n');
 }
