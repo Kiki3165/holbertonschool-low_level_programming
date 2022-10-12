@@ -16,7 +16,7 @@ int i;
 for ( i = 0; src[i] != '\0'; i++)
 {
 src[i] = dest[i];
-_putchar(s[i]);
+_putchar(dest[i]);
 }
 _putchar('\n');
 return (dest);
