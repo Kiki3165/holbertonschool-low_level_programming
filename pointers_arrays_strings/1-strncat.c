@@ -18,7 +18,7 @@ int j = 0;
 int k;
 for (i = 0; dest[i] != '\0'; i++)
 {
-k = ++;
+k++;
 }
 for (j = 0; j < n; j++)
 {
