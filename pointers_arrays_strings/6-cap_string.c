@@ -4,6 +4,8 @@
 /**
  * cap_string - check the code
  *
+ *@s:capitalize
+ *
  * Return: Always 0.
  */
 
