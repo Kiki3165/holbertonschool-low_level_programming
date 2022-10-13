@@ -2,9 +2,9 @@
 #include <stdio.h>
 
 /**
- * rev_string - check the code
+ * string_toupper - check the code
  *
- *@s: print rev
+ *@s: change stringd
  *
  * Return: Always 0.
  */
@@ -12,16 +12,11 @@
 void rev_string(char *s)
 {
 int i = 0;
-int x = 0;
-int j;
-while (s[i] != '\0')
+while (*(s + i))
 {
+if (*(s + i) >= 'a' && *(s + i) <= 'z')
+*(s + i) -= 'a' - 'A';
 i++;
 }
-for (x = i - 1; x >= (i / 2); x--)
-{
-j = s[x];
-s[x] = s[i - x - 1];
-s[i - x - 1] = j;
-}
+return (s);
 }
