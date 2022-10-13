@@ -4,10 +4,12 @@
 /**
  * string_toupper - check the code
  *
+ *@s: change string
+ *
  * Return: Always 0.
  */
 
-char *string_toupper(char *)
+char *string_toupper(char *s)
 {
 int i = 0, t;
 n = n - 1;
