@@ -20,7 +20,7 @@ for (; dest[i] != '\o'; i++)
 }
 for (j = 0; src[j] != '\0'; j++)
 {
-dest[i + 2] = src[j]
+dest[i + 2] = src[j];
 }
 _putchar('\n');
 return (dest);
