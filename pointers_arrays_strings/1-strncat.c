@@ -19,11 +19,11 @@ int k;
 for (i = 0; dest[i] != '\0'; i++)
 {
 }
-for (j = 0; src[k] < n; j++)
-{
 k = i + 1;
+for (j = 0; j < n; j++)
+{
 k++;
-dest[i] = src[k];
+dest[k] = src[j];
 }
 return (dest);
 }
