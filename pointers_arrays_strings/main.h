@@ -5,6 +5,10 @@
 
 int _isalpha(int c);
 
+char *_memset(char *s, char b, unsigned int n);
+
+char *leet(char *);
+
 char *cap_string(char *);
 
 void reverse_array(int *a, int n);

@@ -9,26 +9,8 @@
  * Return: Always 0.
  */
 
-char *cap_string(char *l)
+char *cap_string(char *s)
 {
-int i = 0, j;
-char a[] = " \t\n,;.!?\"(){}";
-while (l(s + i))
+int i, j;
+for (i = 0; s[i] != '\0'; i++)
 {
-if (l(s + i) >= 'a' && l(s + i) <= 'z')
-{
-if (i == 0)
-l(s + i) -= 'a' - 'A';
-else
-{
-for (j = 0; j <= 12; j++)
-{
-if (a[j] == l(s + i - 1))
-l(s + i) -= 'a' - 'A';
-}
-}
-}
-i++;
-}
-return (s);
-}
