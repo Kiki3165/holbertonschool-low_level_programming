@@ -1,8 +1,11 @@
 #include <stdio.h>
-#inculde "main.h"
+#include "main.h"
 /**
- * main - check the code
+ * _memcpy - check the code
  *
+ *@dest:cpy
+ *@src:cpy memo
+ *@n: cpy memories
  * Return: Always 0.
  */
 
