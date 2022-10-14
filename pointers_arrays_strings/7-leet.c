@@ -2,15 +2,20 @@
 #include <stdio.h>
 
 /**
- * main - check the code for
+ * leet - check the code for
+ *@n: encode
+ *
+ *
+ *
  *
  * Return: Always 0.
  */
 
-char *leet(char *)
+char *leet(char *n)
 {
-int i; x;
-char a[] = {'a', 'A', 'e', 'E', 'o', 'O', 't', 'T', 'l', 'L',};
+int i;
+int x;
+char a[] = {'a', 'A', 'e', 'E', 'o', 'O', 't', 'T', 'l', 'L'};
 char b[] = {'4', '3', '0', '7', '1'};
 for (i = 0; n[i] != '\0'; i++)
 {
