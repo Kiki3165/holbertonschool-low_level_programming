@@ -15,7 +15,7 @@ int i;
 for (i = 0; s[i] != '\0'; i++)
 {
 if (s[i] >= 'a' && s[i] <= 'z')
-s[i] =(int)s[i] - 32;
+s[i] = (int)s[i] - 32;
 }
 return (s);
 }
