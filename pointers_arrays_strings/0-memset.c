@@ -3,8 +3,8 @@
 
 /**
  * _memset - prints buffer in hexa
- * 
- * 
+ *
+ *
  *
  * Return: Nothing.
  */
