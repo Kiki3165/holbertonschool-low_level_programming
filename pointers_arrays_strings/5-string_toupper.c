@@ -4,18 +4,18 @@
 /**
  * string_toupper - check the code
  *
- *
+ *@s: string to upper
  *
  * Return: Always 0.
  */
 
-char *string_toupper(char *)
+char *string_toupper(char *s)
 {
 int i;
-for (i = 0; * != '\0'; i++)
+for (i = 0; s[i] != '\0'; i++)
 {
-if (* >= 'a' && * <= 'z')
-*[i] =(int)*[i] - 32;
+if (s[i] >= 'a' && s[i] <= 'z')
+s[i] =(int)s[i] - 32;
 }
-return (*);
+return (s);
 }
