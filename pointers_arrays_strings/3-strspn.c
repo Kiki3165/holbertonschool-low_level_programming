@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- *  - check the code
+ * _strspn - check the code
  *
  *@s:gets the lenght
  *
