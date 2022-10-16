@@ -2,7 +2,11 @@
 #include <stdio.h>
 
 /**
- * main - check the code
+ * _strstr - check the code
+ *
+ *@haystack: locate substring
+ *@needle: locate substring to
+ *
  *
  * Return: Always 0.
  */
