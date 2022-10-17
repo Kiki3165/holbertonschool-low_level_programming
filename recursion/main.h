@@ -7,6 +7,8 @@ int _isalpha(int c);
 
 void _puts_recursion(char *s);
 
+void _print_rev_recursion(char *s);
+
 void print_chessboard(char (*a)[8]);
 
 char *_strstr(char *haystack, char *needle);
