@@ -18,5 +18,7 @@ return (1);
 }
 else
 if (n % j == 0)
+{
 return (0);
+}
 }
