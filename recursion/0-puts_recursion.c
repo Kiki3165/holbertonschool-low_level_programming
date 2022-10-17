@@ -10,9 +10,7 @@
 
 void _puts_recursion(char *s)
 {
-int factorial;
 if (s <= 1)
-return (s * factorial(s - 1));
 _putchar(s);
-putchar('\n');
+_putchar('\n');
 }
