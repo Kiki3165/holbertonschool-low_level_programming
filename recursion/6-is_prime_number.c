@@ -15,10 +15,7 @@ int j = 0;
 if (n == 1)
 {
 return (1);
-}
 else
-if (n % j == 0)
-{
 return (0);
 }
 }
