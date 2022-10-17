@@ -5,6 +5,8 @@
 
 int _isalpha(int c);
 
+int factorial(int n);
+
 int _strlen_recursion(char *s);
 
 void _puts_recursion(char *s);
