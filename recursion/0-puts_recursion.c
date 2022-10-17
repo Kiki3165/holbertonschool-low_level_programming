@@ -10,6 +10,6 @@
 
 void _puts_recursion(char *s)
 {
-for (s = 0; s != '\o'; s++)
-{
-print(s);
+_puts_recursion(s);
+_putchar('\n');
+}
