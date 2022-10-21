@@ -1,7 +1,7 @@
 #include "main.h"
 #include <stdio.h>
 /**
- * _puts_recursion - check the code
+ * main - check the code
  *
  *@argc: print string
  *@argv:  print too
