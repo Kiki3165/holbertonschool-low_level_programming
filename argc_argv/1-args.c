@@ -10,11 +10,13 @@
 
 int main(int argc, char *argv)
 {
-int i;
-printf("%d\n", argc);
-for (i = 0; i != argc; i++)
-{
-printf("%d\n", argv[i]);
-}
-return (0);
+  int i = 1;
+  int n = argc - 1;
+
+  (void)argv;
+  if (i == argc)
+    printf("0\n");
+  else
+    printf("%d\n", n);
+  return (0);
 }
