@@ -25,15 +25,16 @@ for (i = 0; i < height; i++)
 {
 array[i] = malloc(width * sizeof(int));
 if (array[i] == 0)
+{
 for (j = 0; j < i; j++)
-}
-free(a[j]);
-free(a);
+free(array[j]);
+free(array);
 return (NULL);
 }
 for (j = 0; j < width; j++)
-a[i][j] = 0;
+{
+array[i][j] = 0;
 }
 }
-return (a);
+return (array);
 }
