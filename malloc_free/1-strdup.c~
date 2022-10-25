@@ -1,0 +1,14 @@
+#include "main.h"
+#include <stdio.h>
+#include <stdlib.h>
+
+/**
+ * create_array - check code
+ *
+ *@size: create array
+ *
+ *@c: create array to
+ *
+ * Return: 0
+ */
+

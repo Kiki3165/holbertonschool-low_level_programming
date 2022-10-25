@@ -5,6 +5,10 @@
 
 int _isalpha(int c);
 
+char *_strdup(char *str);
+
+char *_strdup(char *str);
+
 char *create_array(unsigned int size, char c);
 
 int _sqrt_recursion(int n);
