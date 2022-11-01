@@ -1,12 +1,10 @@
 #include <stdio.h>
-#include "main.h"
 
 /**
- * main - check the code
- *
- * Return: Always 0.
- */
-
+* main - check the code
+*
+* Return: Always 0.
+*/
 struct dog
 {
 char *name;
