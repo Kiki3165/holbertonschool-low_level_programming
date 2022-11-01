@@ -8,6 +8,7 @@
  * @name: name
  * @age: age
  * @owner: owner
+ * return : c
  */
 
 dog_t *new_dog(char *name, float age, char *owner)
@@ -20,7 +21,7 @@ return (NULL);
 j = strlen(name) + 1;
 k = strlen(owner) + 1;
 c->name = malloc(sizeof(char) * j);
-if((*c).name == NULL)
+if ((*c).name == NULL)
 {
 free(c);
 return (NULL);
@@ -30,11 +31,12 @@ for (l = 0; l < j; l++)
 c->name[l] = name[l];
 }
 c->age = age;
-c->owner = malloc(sizeof(char) * j);
+c->owner = malloc(sizeof(char) * k);
 if ((*c).owner == NULL)
 {
 free(c->name);
 free(c);
+return (NULL);
 }
 for (l = 0; l < k; l++)
 {
