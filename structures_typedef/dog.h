@@ -1,5 +1,5 @@
-#ifndef DOG_C_H
-#define DOG_C_H
+#ifndef DOG_T_H
+#define DOG_T_H
 
 /**
 * struct dog_t - check the code
@@ -10,7 +10,7 @@
 * Return: Always 0.
 */
 
-struct dog_t
+typedef struct dog_t
 {
 char *name;
 float age;
