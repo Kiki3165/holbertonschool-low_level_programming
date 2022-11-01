@@ -2,7 +2,7 @@
 #define DOG_T_H
 
 /**
-* struct dog_t - check the code
+* struct dog - check the code
 *@name: name
 *@age: age
 *@owner: owner
