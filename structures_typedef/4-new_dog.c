@@ -30,7 +30,7 @@ for (l = 0; l < j; l++)
 c->name[l] = name[l];
 }
 c->age = age;
-c->owner = malloc(sizeof(char) * n);
+c->owner = malloc(sizeof(char) * j);
 if ((*c).owner == NULL)
 {
 free(c->name);
