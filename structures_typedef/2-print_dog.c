@@ -3,7 +3,7 @@
 #include "dog.h"
 
 /**
- * init_dog - Entry point
+ * print_dog - Entry point
  * @d: d
  */
 
