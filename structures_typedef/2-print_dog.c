@@ -5,9 +5,6 @@
 /**
  * init_dog - Entry point
  * @d: d
- * @name: name
- * @age: age
- * @owner: owner
  */
 
 void print_dog(struct dog *d)
