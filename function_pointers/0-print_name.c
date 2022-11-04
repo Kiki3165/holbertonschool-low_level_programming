@@ -4,14 +4,14 @@
 /**
  * print_name - Entry point
  *
- *
- *
+ *@name: name
+ *@f: fonction pointeur
  *
  */
 
 void print_name(char *name, void (*f)(char *))
 {
-  void (*c)(char *name);
-  c = print_name;
-  c(0);
+if ( f == NULL)
+return;
+f(name);
 }
