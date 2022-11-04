@@ -1,0 +1,14 @@
+#include <stdio.h>
+#include "main.h"
+
+/**
+ * init_dog - Entry point
+ *
+ *
+ *
+ *
+ */
+
+void print_name(char *name, void (*f)(char *))
+{
+  
