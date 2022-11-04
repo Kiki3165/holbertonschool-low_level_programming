@@ -11,11 +11,7 @@
 
 void print_name(char *name, void (*f)(char *))
 {
-if (f)
-{
-void (*d)(name);
-d = f;
-}
-_putchar(f);
-_putchar('\n');
+  void (*c)(char *);
+  c = print_name;
+  c();
 }
