@@ -14,7 +14,7 @@ int o = 0;
 unsigned int i = 0;
 va_list ap;
 va_start(ap, n);
-while (s < n)
+while (i < n)
 {
 o += (int) va_arg(ap, int);
 i++;
