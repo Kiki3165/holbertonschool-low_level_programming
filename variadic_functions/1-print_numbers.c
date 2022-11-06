@@ -20,7 +20,7 @@ while (i < n)
 {
 printf("%d", va_arg(al, int));
 i++;
-if (s != n && separator != NULL)
+if (i != n && separator != NULL)
 printf("%s", separator);
 }
 printf("\n");
