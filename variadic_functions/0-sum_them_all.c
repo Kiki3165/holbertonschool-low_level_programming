@@ -9,7 +9,7 @@
 
 int sum_them_all(const unsigned int n, ...)
 {
-int i;
+unsigned int i;
 if (n == 0)
 {
 return (0);
