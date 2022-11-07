@@ -2,7 +2,7 @@
 
 /**
  * print_line - check the code
- *
+ *@n: n
  * Return: Always 0.
  */
 
