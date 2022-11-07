@@ -5,6 +5,8 @@
 
 int _isalpha(int c);
 
+char *string_nconcat(char *s1, char *s2, unsigned int n);
+
 void *malloc_checked(unsigned int b);
 
 void free_grid(int **grid, int height);
