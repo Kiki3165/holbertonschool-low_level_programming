@@ -12,10 +12,18 @@
 
 void print_all(const char * const format, ...)
 {
+{
 va_list ap;
 char *s;
+const c;
 float f;
 int i;
+va_start(ap, format);
+for (i = 0; i < format; i++)
+{
+s = va_arg(ap, char*)
+if ( s == (format - 1))
+}
 while (i == s)
 i++;
 if (s == NULL)
@@ -23,9 +31,5 @@ if (s == NULL)
 s = "(nil)";
 printf("%s\n", s);
 }
-for (i = 0; i < format; i++)
-{
-s = va_arg(ap, char*)
-if ( s == (format - 1))
-}
+va_end(ap);
 }
