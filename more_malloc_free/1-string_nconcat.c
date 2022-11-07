@@ -27,9 +27,9 @@ size = i + j + 6;
 p = malloc(size * sizeof(char));
 if (p == NULL)
 return (NULL);
-for (a = 0; a < i; a++, m++)
+for (a = 0; a < i; a++, c++)
 p[c] = s1[a];
-for (b = 0; b < j; b++, m++)
+for (b = 0; b < j; b++, c++)
 p[c] = s2[b];
 p[c] = '\0';
 return (p);
