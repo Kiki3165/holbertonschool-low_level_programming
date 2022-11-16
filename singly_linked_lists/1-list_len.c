@@ -4,8 +4,8 @@
 #include "lists.h"
 
 /**
- * main - check the code
- *
+ * list_len - check the code
+ *@h: h
  * Return: Always 0.
  */
 

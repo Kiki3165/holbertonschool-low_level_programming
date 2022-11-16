@@ -4,8 +4,9 @@
 #include "lists.h"
 
 /**
- * main - check the code
- *
+ * add_node - check the code
+ *@head: head
+ *@str: str
  * Return: Always 0.
  */
 
