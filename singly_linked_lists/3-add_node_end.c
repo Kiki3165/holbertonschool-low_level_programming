@@ -4,14 +4,12 @@
 #include "lists.h"
 
 /**
- *@head: head
- *@str: str
- *
  * add_node_end - check the code
- *@h: h
- * Return: Always 0.
+ *@head: head
+ * 
+ * @str:str
+ * Return: node
  */
-
 list_t *add_node_end(list_t **head, const char *str)
 {
 list_t *temp = *head;
