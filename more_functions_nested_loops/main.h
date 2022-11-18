@@ -5,6 +5,8 @@
 
 int _isalpha(int c);
 
+void print_diagonal(int n);
+
 void print_line(int n);
 
 void print_most_numbers(void);
