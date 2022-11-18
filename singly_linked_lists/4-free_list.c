@@ -11,7 +11,7 @@
 
 void free_list(list_t *head)
 {
-   struct node* tmp;
+   list_t tmp;
 
    while (head != NULL)
     {
