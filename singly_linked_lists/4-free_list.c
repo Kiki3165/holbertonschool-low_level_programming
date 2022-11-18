@@ -5,15 +5,19 @@
 
 /**
  * free_list - check the code
- *@h: h
+ *@head: head
  * Return: Always 0.
  */
 
 void free_list(list_t *head)
 {
-while (head != NULL)
-{
-head = head->next;
-free(head);
-}
+   struct node* tmp;
+
+   while (head != NULL)
+    {
+       tmp = head;
+       head = head->next;
+       free(tmp);
+    }
+
 }
