@@ -6,7 +6,7 @@
 /**
  * add_node_end - check the code
  *@head: head
- * 
+ *
  * @str:str
  * Return: node
  */
