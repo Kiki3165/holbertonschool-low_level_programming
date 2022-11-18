@@ -5,7 +5,9 @@
 
 /**
  * add_nodeint - check the code
- *@n:n
+ *@head:head
+ *
+ * @n:n
  * Return: Always 0.
  */
 
