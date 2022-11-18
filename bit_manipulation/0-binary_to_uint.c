@@ -2,8 +2,8 @@
 #include "main.h"
 
 /**
- * main - check the code
- *
+ * binary_to_uint - check the code
+ *@b: b
  * Return: Always 0.
  */
 
