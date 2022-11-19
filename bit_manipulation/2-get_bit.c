@@ -5,7 +5,7 @@
  * get_bit - check the code
  *@n:n
  * @index:index
- * 
+ *
  * Return: Always 0.
  */
 
