@@ -4,8 +4,11 @@
 #include "lists.h"
 
 /**
- * main - check the code
- *
+ * insert_nodeint_at_index - check the code
+ *@head:head
+ * @idx:idx
+ * @n:n
+ * 
  * Return: Always 0.
  */
 
