@@ -6,7 +6,7 @@
 /**
  * get_nodeint_at_index - check the code
  *@head: head
- * 
+ *
  * @index:index
  * Return: Always 0.
  */
