@@ -2,8 +2,9 @@
 #include "main.h"
 
 /**
- * main - check the code
- *
+ * clear_bit - check the code
+ *@n:n
+ *@index:index
  * Return: Always 0.
  */
 
