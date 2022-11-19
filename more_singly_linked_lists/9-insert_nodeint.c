@@ -8,7 +8,7 @@
  *@head:head
  * @idx:idx
  * @n:n
- * 
+ *
  * Return: Always 0.
  */
 
