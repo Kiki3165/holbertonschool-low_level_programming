@@ -14,22 +14,17 @@
 
 ssize_t read_textfile(const char *filename, size_t letters)
 {
-        FILE* ptr;
-    ptr = fopen("filename", "r");
+    FILE *fp;
+   char buff[468];
 
-    if (NULL == ptr) {
-        return (0);
-    }
- 
-    printf("content of this file are \n");
+   fp = fopen("/tmp/test.txt", "r");
+   fscanf(fp, "%s", buff);
+   printf("1 : %s\n", buff );
 
-
-    do {
-        letters = fgetc(ptr);
-        printf("%c", ch);
-
-
-    } while (letters != EOF);
-    fclose(ptr);
-    return 0;
+   fgets(buff, 468, (FILE*)fp);
+   printf("2: %s\n", buff );
+   
+   fgets(buff, 468, (FILE*)fp);
+   printf("3: %s\n", buff );
+   fclose(fp);
 }
