@@ -35,7 +35,7 @@ int create_file(const char *filename, char *text_content)
 	}
 	else
 	{
-		write(STDOUT_FILENO, file, text_content, i);
+		write(STDOUT_FILENO, file, i);
 	}
 
 	close(file);
