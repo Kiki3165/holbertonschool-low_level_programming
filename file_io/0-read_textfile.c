@@ -21,9 +21,15 @@ ssize_t read_textfile(const char *filename, size_t letters)
     int size;
     char *buf;
     buf = malloc (letters);
-    if (filename == NULL)
+    if (buf == NULL)
     return (0);
+    if (filename == NULL)
+        return (0);
     fd = open(filename, O_RDONLY);
+    if (fd = fopen("filename", "r"))
+    {
+        fclose(fd);
+    }
     size = read(fd, buf, letters);
     buf[size] = '\0';
     write(STDOUT_FILENO, buf, size);
