@@ -7,24 +7,25 @@
 #include <string.h>
 
 /**
- * main - check the code
+ *read_textfile - check the code
+ *@filename:filename
+ *@letters:letters
  *
  * Return: Always 0.
  */
 
 ssize_t read_textfile(const char *filename, size_t letters)
 {
-    FILE *fp;
-   char buff[letters];
+        		FILE *ptr_file;
+    		char buf[1000];
 
-   fp = fopen("filename", "r");
-   fscanf(fp, "%s", buff);
-   printf("1 : %s\n", buff );
+    		ptr_file =fopen("input.txt","r");
+    		if (!ptr_file)
+        		return 1;
 
-   fgets(buff, letters, (FILE*)fp);
-   printf("2: %s\n", buff );
-   
-   fgets(buff, letters, (FILE*)fp);
-   printf("3: %s\n", buff );
-   fclose(fp);
+    		while (fgets(buf,1000, ptr_file)!=NULL)
+        		printf("%s",buf);
+
+		fclose(ptr_file);
+    		return 0;   
 }
