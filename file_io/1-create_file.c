@@ -20,7 +20,7 @@ int create_file(const char *filename, char *text_content)
     if (filename == NULL)
     return (-1);
 
-    create = open("filename", O_WRONLY | O_CREAT | O_TRUNC, S_IRUSR | S_IWUSR);
+    create = open(filename, O_WRONLY | O_CREAT | O_TRUNC, S_IRUSR | S_IWUSR);
     if (create == NULL)
     return (-1);
     if (text_content == NULL)
@@ -30,7 +30,7 @@ int create_file(const char *filename, char *text_content)
     }
     for (len = 0; text_content[len]; len++)
     ;
-    wr_perm = write(new_file, text_content, len);
+    wr_perm = write(create, text_content, len);
     if (close(create) == -1)
     return (-1);
     return (wr_perm == -1 ? -1 : 1);
