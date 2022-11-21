@@ -28,11 +28,9 @@ ssize_t read_textfile(const char *filename, size_t letters)
     fd = open(filename, O_RDONLY);
     int exist = stat(filename,*buf);
     if (exist == 0)
-    {
         return (1);
         else
         return (0);
-    }
     size = read(fd, buf, letters);
     buf[size] = '\0';
     write(STDOUT_FILENO, buf, size);
