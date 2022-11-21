@@ -26,7 +26,7 @@ ssize_t read_textfile(const char *filename, size_t letters)
     if (filename == NULL)
         return (0);
     fd = open(filename, O_RDONLY);
-    int exist = stat(filename,&buf);
+    int exist = stat(filename,*buf);
     if (exist == 0)
     {
         return (1);
