@@ -16,7 +16,7 @@
 
 int create_file(const char *filename, char *text_content)
 {
-    int wr_perm, i, fd, new_file;
+int wr_perm, i, fd, new_file;
 
 	if (filename == NULL)
 		return (-1);
