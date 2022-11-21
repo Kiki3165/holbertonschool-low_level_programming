@@ -15,22 +15,21 @@
 ssize_t read_textfile(const char *filename, size_t letters)
 {
         FILE* ptr;
-    char ch;
-    ptr = fopen("test.txt", "r");
+    ptr = fopen("filename", "r");
 
     if (NULL == ptr) {
-        printf("file can't be opened \n");
+        return (0);
     }
  
     printf("content of this file are \n");
 
 
     do {
-        ch = fgetc(ptr);
+        letters = fgetc(ptr);
         printf("%c", ch);
 
 
-    } while (ch != EOF);
+    } while (letters != EOF);
     fclose(ptr);
     return 0;
 }
