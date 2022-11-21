@@ -5,6 +5,7 @@
 #include <sys/stat.h>
 #include <fcntl.h>
 #include <string.h>
+#include <unistd.h>
 
 /**
  *read_textfile - check the code
@@ -16,16 +17,16 @@
 
 ssize_t read_textfile(const char *filename, size_t letters)
 {
-        		FILE *ptr_file;
-    		char buf[1000];
-
-    		ptr_file =fopen("input.txt","r");
-    		if (!ptr_file)
-        		return 1;
-
-    		while (fgets(buf,1000, ptr_file)!=NULL)
-        		printf("%s",buf);
-
-		fclose(ptr_file);
-    		return 0;   
+    int fd;
+    int size;
+    char *buf;
+    buf = malloc (letters);
+    if (filename == NULL)
+    return (0);
+    fd = open(filename, O_RDONLY);
+    size = read(fd, buf, letters);
+    buf[size] = 0;
+    write(1, &buf, size);
+    close(fd);
+    return (0);
 }
