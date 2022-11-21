@@ -10,15 +10,14 @@
 
 ssize_t read_textfile(const char *filename, size_t letters)
 {
-    FILE *filename = fopen(filename, "r");
-    char *letters;
-    char ch;
+    const unsigned MAX_LENGTH;
+    char buffer[MAX_LENGTH];
+    FILE *file_o = fopen("filename", "r");
     if (filename == NULL)
     {
-    return (1);
+    return (0);
     }
-    while ((ch = fgetc(filename)) != EOF)
-    _putchar(ch);
-    fclose(filename);
+    while (fgets(buffer, MAX_LENGTH, file_o))
+    printf("%s", buffer);
     return (0);
 }
