@@ -15,16 +15,16 @@
 ssize_t read_textfile(const char *filename, size_t letters)
 {
     FILE *fp;
-   char buff[468];
+   char buff[letters];
 
-   fp = fopen("/tmp/test.txt", "r");
+   fp = fopen("filename", "r");
    fscanf(fp, "%s", buff);
    printf("1 : %s\n", buff );
 
-   fgets(buff, 468, (FILE*)fp);
+   fgets(buff, letters, (FILE*)fp);
    printf("2: %s\n", buff );
    
-   fgets(buff, 468, (FILE*)fp);
+   fgets(buff, letters, (FILE*)fp);
    printf("3: %s\n", buff );
    fclose(fp);
 }
