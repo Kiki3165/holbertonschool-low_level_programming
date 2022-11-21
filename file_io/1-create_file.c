@@ -4,6 +4,8 @@
 #include <sys/types.h>
 #include <sys/stat.h>
 #include <fcntl.h>
+#include <string.h>
+#include <unistd.h>
 
 /**
  *create_file - check the code
@@ -33,7 +35,7 @@ int create_file(const char *filename, char *text_content)
 	}
 	else
 	{
-		write(file, text_content, i);
+		write(STDOUT_FILENO, file, text_content, i);
 	}
 
 	close(file);
