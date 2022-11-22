@@ -5,7 +5,7 @@
 
 /**
  * free_dlistint - check the code
- *@head:
+ *@head:head
  * Return: Always EXIT_SUCCESS.
  */
 

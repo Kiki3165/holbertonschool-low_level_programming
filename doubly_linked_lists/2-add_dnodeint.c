@@ -4,7 +4,7 @@
 #include "lists.h"
 
 /**
- * add_nodeint - check the code
+ * add_dnodeint - check the code
  *@head:head
  *@n:n
  * Return: Always EXIT_SUCCESS.

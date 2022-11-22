@@ -4,8 +4,9 @@
 #include "lists.h"
 
 /**
- * main - check the code
- *
+ * add_dnodeint_end - check the code
+ *@head:head
+ *@n:n
  * Return: Always EXIT_SUCCESS.
  */
 
