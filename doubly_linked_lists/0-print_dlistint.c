@@ -15,13 +15,13 @@ int i = 0;
 const dlistint_t *p = h;
 while (p != NULL)
 {
-if (p->str == NULL)
+if (p->prev == NULL)
 {
 printf("[o] (nil)\n");
 i++;
 p = p->next;
 }
-printf("[%d] %s\n", p->len, p->str);
+printf("[%d] %s\n", p->n, p->prev);
 i++;
 p = p->next;
 }
