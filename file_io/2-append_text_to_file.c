@@ -27,13 +27,13 @@ int append_text_to_file(const char *filename, char *text_content)
 
 	if (text_content == NULL)
 	{
-		return (1);
+		text_content = "";
 	}
 	else
 	{
 		wr = write(file, text_content, i);
 	}
-	
+
 	if (wr == -1)
 		return (-1);
 
