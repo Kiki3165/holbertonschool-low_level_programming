@@ -11,19 +11,12 @@
 
 size_t print_dlistint(const dlistint_t *h)
 {
-int i = 0;
-const dlistint_t *p = h;
-while (p != NULL)
-{
-if (p->prev == NULL)
-{
-printf("[o] (nil)\n");
-i++;
-p = p->next;
-}
-printf("[%d] %s\n", p->n, p->prev);
-i++;
-p = p->next;
-}
-return (i);
+	size_t i;
+
+	for (i = 0; h; i++)
+	{
+		printf("%d\n", h->n);
+		h = h->next;
+	}
+	return (i);
 }
