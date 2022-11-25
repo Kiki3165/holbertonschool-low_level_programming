@@ -4,8 +4,8 @@
 #include "hash_tables.h"
 
 /**
- * main - check the code
- *
+ * hash_djb2 - check the code
+ *@str:str
  * Return: Always EXIT_SUCCESS.
  */
 
