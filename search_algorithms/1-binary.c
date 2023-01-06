@@ -1,4 +1,4 @@
-#include "search_algos.j"
+#include "search_algos.h"
 
 /**
  *binary_search-binary_search
