@@ -25,19 +25,19 @@ int binary_search(int *arr, size_t size, int value)
  *@j:j
  *@r:r
  *@x:x
- *
+ *Return:0
 */
 
 
 int binarySearch(int *arr, int j, int r, int x)
 {
-	int l = j;
-	int h = r;
-	int mid = (j + r) / 2;
-    if (j > r)
-	{
-		return (-1);
-	}
+int l = j;
+int h = r;
+int mid = (j + r) / 2;
+if (j > r)
+{
+return (-1);
+}
 	printf("Searching in array: ");
 	for (; l <= h; l++)
 	{
