@@ -20,7 +20,7 @@ int binary_search(int *arr, size_t size, int value)
 }
 
 /**
- *binarySearch_binarySearch
+ *binarySearch-binarySearch
  *@arr:arr
  *@j:j
  *@r:r
@@ -34,7 +34,7 @@ int binarySearch(int *arr, int j, int r, int x)
 	int l = j;
 	int h = r;
 	int mid = (j + r) / 2;
-if (j > r)
+    if (j > r)
 	{
 		return (-1);
 	}
