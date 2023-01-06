@@ -2,19 +2,19 @@
 
 /**
  *binary_search-binary_search
- *@array:array
+ *@arr:arr
  *@size:size
  *@value:value
  *
 */
 
-int binary_search(int *array, size_t size, int value)
+int binary_search(int *arr, size_t size, int value)
 {
 	int j;
 
-	if (array == NULL)
+	if (arr == NULL)
 		return (-1);
-	j = binarySearch(array, 0, size - 1, value);
+	j = binarySearch(arr, 0, size - 1, value);
 
 	return (j);
 }
@@ -42,20 +42,20 @@ if (j > r)
 	for (; l <= h; l++)
 	{
 		if (l == h)
-			printf("%d", array[l]);
+			printf("%d", arr[l]);
 		else
-			printf("%d, ", array[l]);
+			printf("%d, ", arr[l]);
 	}
 	printf("\n");
-	if (x == array[mid])
+	if (x == arr[mid])
 		return (mid);
 
-	else if (x < array[mid])
+	else if (x < arr[mid])
 	{
-		return (binarySearch(array, j, mid - 1, x));
+		return (binarySearch(arr, j, mid - 1, x));
 	}
 	else
 	{
-		return (binarySearch(array, mid + 1, r, x));
+		return (binarySearch(arr, mid + 1, r, x));
 	}
 }
