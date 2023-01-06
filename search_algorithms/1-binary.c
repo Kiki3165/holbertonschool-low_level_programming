@@ -29,12 +29,12 @@ int binary_search(int *array, size_t size, int value)
 */
 
 
-int binarySearch(int *array, int fr, int rf, int key)
+int binarySearch(int *arr, int j, int r, int x)
 {
-	int l = fr;
-	int h = rf;
-	int mid = (fr + rf) / 2;
-	if (fr > rf)
+	int l = j;
+	int h = r;
+	int mid = (j + r) / 2;
+if (j > r)
 	{
 		return (-1);
 	}
@@ -47,15 +47,15 @@ int binarySearch(int *array, int fr, int rf, int key)
 			printf("%d, ", array[l]);
 	}
 	printf("\n");
-	if (key == array[mid])
+	if (x == array[mid])
 		return (mid);
 
-	else if (key < array[mid])
+	else if (x < array[mid])
 	{
-		return (binarySearch(array, fr, mid - 1, key));
+		return (binarySearch(array, j, mid - 1, x));
 	}
 	else
 	{
-		return (binarySearch(array, mid + 1, rf, key));
+		return (binarySearch(array, mid + 1, r, x));
 	}
 }
