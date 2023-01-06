@@ -1,4 +1,4 @@
-#include "search_algos.h"
+#include "search_algos.j"
 
 /**
  *binary_search-binary_search
@@ -10,34 +10,52 @@
 
 int binary_search(int *array, size_t size, int value)
 {
-	int i;
+	int j;
 
 	if (array == NULL)
 		return (-1);
-	i = binarySearch(array, 0, size - 1, value);
+	j = binarySearch(array, 0, size - 1, value);
 
-	return (i);
+	return (j);
 }
 
 /**
  *binarySearch_binarySearch
  *@arr:arr
- *@l:l
+ *@j:j
  *@r:r
  *@x:x
  *
 */
 
-int binarySearch(int arr[], int l, int r, int x)
+
+int binarySearch(int *array, int fr, int rf, int key)
 {
-    while (l <= r) {
-        int m = l + (r - l) / 2;
-        if (arr[m] == x)
-            return m;
-        if (arr[m] < x)
-            l = m + 1;
-        else
-            r = m - 1;
-    }
-    return -1;
+	int l = fr;
+	int h = rf;
+	int mid = (fr + rf) / 2;
+	if (fr > rf)
+	{
+		return (-1);
+	}
+	printf("Searching in array: ");
+	for (; l <= h; l++)
+	{
+		if (l == h)
+			printf("%d", array[l]);
+		else
+			printf("%d, ", array[l]);
+	}
+	printf("\n");
+	if (key == array[mid])
+		return (mid);
+
+	else if (key < array[mid])
+	{
+		return (binarySearch(array, fr, mid - 1, key));
+	}
+	else
+	{
+		return (binarySearch(array, mid + 1, rf, key));
+	}
 }
