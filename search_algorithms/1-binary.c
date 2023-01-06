@@ -5,7 +5,7 @@
  *@arr:arr
  *@size:size
  *@value:value
- *
+ *Return:0
 */
 
 int binary_search(int *arr, size_t size, int value)
