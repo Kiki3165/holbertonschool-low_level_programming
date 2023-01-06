@@ -9,9 +9,12 @@
 
 int linear_search(int *array, size_t size, int value)
 {
-    long unsigned int i;
-    for (i = 0; i < size; i++)
-    if (array[i] == value)
-    return (i);
-    return (-1);
+  if (size == 0) {
+    return -1;
+  }
+  if (array[size - 1] == value) {
+    return size - 1;
+  } else {
+    return linearSearch(array, size - 1, value);
+  }
 }
